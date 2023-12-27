@@ -4,6 +4,9 @@ Then they have an option to register as candidate, or vote and view results on s
 Registered candidates can chat online as campaign and debate within each other, which is available for the public to view.
 Fresh elections can simply be initialised by changing the dates in database and clearing existing fields, ensuring reusability of the app.
 
+
+Android APK File is available on android-app-submission zip file
+
 |-----------------------------------------------------------------------------------|
 |The FireStore Database has the following:-                                         |
 |-----------------------------------------------------------------------------------|
