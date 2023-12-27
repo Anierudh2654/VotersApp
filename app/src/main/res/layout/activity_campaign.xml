@@ -1,0 +1,54 @@
+<!-- res/layout/activity_campaign.xml -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/campaignTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campaign"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"/>
+
+    <ScrollView
+        android:id="@+id/campaignScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/chatLayout"
+        android:layout_below="@id/campaignTextView"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:id="@+id/campaignLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/chatLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chat Here...."
+            android:padding="16dp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/Sendchat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="0dp"
+        android:text="GO" />
+</RelativeLayout>

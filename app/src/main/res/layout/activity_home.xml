@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".Home"
+    android:layout_marginTop="200dp">
+
+    <Button
+        android:id="@+id/btnVote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vote"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnRegisterCandidate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register as Candidate"
+        android:layout_below="@+id/btnVote"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnViewResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Results"
+        android:layout_below="@+id/btnRegisterCandidate"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnViewCampaign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Campaign"
+        android:layout_below="@+id/btnViewResults"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"/>
+
+</RelativeLayout>

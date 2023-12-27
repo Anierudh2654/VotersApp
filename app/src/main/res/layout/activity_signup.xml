@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".Signup"
+    android:layout_marginTop="200dp">
+
+    <EditText
+        android:id="@+id/EmailSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="8dp"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/PasswordSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/EmailSignup"
+        android:layout_marginBottom="8dp"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/ReenterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Re-enter Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/PasswordSignup"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp"/>
+
+    <Button
+        android:id="@+id/Signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_below="@+id/ReenterPassword"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/GoToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Login"
+        android:layout_below="@+id/Signup"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
